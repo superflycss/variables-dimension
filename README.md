@@ -1,2 +1,3 @@
-# variables-dimension
-Dimension variables
+# CSS Dimension Variables
+
+CSS Dimension variables.

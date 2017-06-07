@@ -1,0 +1,31 @@
+{
+  "name": "@superflycss/variables-dimension",
+  "version": "1.0.0",
+  "description": "Dimension variables",
+  "main": "src/main/css/index.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superflycss/variables-dimension.git"
+  },
+  "keywords": [
+    "css",
+    "style",
+    "sizes",
+    "dimension",
+    "variables",
+    "superflycss"
+  ],
+  "author": "Ole Ersoy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/superflycss/variables-dimension/issues"
+  },
+  "homepage": "https://github.com/superflycss/variables-dimension#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "@superflycss/task-build": "^1.0.0"
+  }
+}
