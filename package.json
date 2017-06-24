@@ -1,10 +1,13 @@
 {
   "name": "@superflycss/variables-dimension",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dimension variables",
   "main": "src/main/css/index.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "update": "ncu -a && npm i",
+    "clean": "gulp clean",
+    "build": "npm run clean && gulp build:css",
+    "test": "npm run build && gulp test:css"
   },
   "repository": {
     "type": "git",
@@ -25,7 +28,9 @@
   },
   "homepage": "https://github.com/superflycss/variables-dimension#readme",
   "devDependencies": {
+    "@superflycss/task-build": "^1.0.5",
+    "@superflycss/task-clean": "^1.0.0",
     "gulp": "^3.9.1",
-    "@superflycss/task-build": "^1.0.0"
+    "npm-check-updates": "^2.12.0"
   }
 }
