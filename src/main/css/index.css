@@ -14,25 +14,25 @@
 
 /* 0 */
 :root {
-  --spacer-1x: 1rem;
-  --spacer-2x: 2rem;
-  --spacer-3x: 3rem;
-  --spacer-4x: 4rem;
-  --spacer-5x: 5rem;
-  --spacer-halfx: 0.5rem;
+  --spacer-1rem: 1rem;
+  --spacer-2rem: 2rem;
+  --spacer-3rem: 3rem;
+  --spacer-4rem: 4rem;
+  --spacer-5rem: 5rem;
+  --spacer-halfrem: 0.5rem;
 }
 
 /* 1 */
 :root {
-  --border-width-100: 1px;
-  --border-width-200: 2px;
-  --border-width-300: 3px;
-  --border-width-400: 4px;
-  --border-width-500: 5px;
-  --border-width-600: 6px;
-  --border-width-700: 7px;
-  --border-width-800: 8px;
-  --border-width-900: 9px;
+  --border-width-1px: 1px;
+  --border-width-2px: 2px;
+  --border-width-3px: 3px;
+  --border-width-4px: 4px;
+  --border-width-5px: 5px;
+  --border-width-6px: 6px;
+  --border-width-7px: 7px;
+  --border-width-8px: 8px;
+  --border-width-9px: 9px;
 }
 
 /* 2 */
