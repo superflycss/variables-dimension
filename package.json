@@ -1,10 +1,12 @@
 {
   "name": "@superflycss/variables-dimension",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Dimension variables",
   "main": "index.css",
   "scripts": {
-    "update": "ncu -a && npm i"
+    "ig": "npm install -g @jsdevtools/version-bump-prompt && npm install -g npm-check-updates && npm install -g npm-install-peers",
+    "u": "ncu -a && npm i",
+    "p": "bump patch && npm publish"
   },
   "repository": {
     "type": "git",

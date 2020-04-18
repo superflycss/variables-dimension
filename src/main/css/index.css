@@ -54,3 +54,8 @@
 @custom-media --md-viewport (min-width: 768px);
 @custom-media --lg-viewport (min-width: 992px);
 @custom-media --xl-viewport (min-width: 1200px);
+
+@custom-media --sm-max-viewport (max-width: 576px);
+@custom-media --md-max-viewport (max-width: 768px);
+@custom-media --lg-max-viewport (max-width: 992px);
+@custom-media --xl-max-viewport (max-width: 1200px);
