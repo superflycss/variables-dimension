@@ -9,6 +9,7 @@
  1:  Borders.
  2:  Z-Index
  3:  Default Media Breakpoints
+ 4:  Variable Breapoint Definitions
 ================================
 */
 
@@ -59,3 +60,12 @@
 @custom-media --md-max-viewport (max-width: 768px);
 @custom-media --lg-max-viewport (max-width: 992px);
 @custom-media --xl-max-viewport (max-width: 1200px);
+
+
+/* 4 */
+:root {
+  --sm: 576px;
+  --md: 768px;
+  --lg: 992px;
+  --xl: 1200px;
+}
