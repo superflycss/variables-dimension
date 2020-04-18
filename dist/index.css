@@ -1,0 +1,61 @@
+/*! superflycss/variables-dimension | MIT License | https://github.com/superflycss/variables-dimension/blob/master/LICENSE.md */
+/*! bootstrap v4.0.0-alpha | MIT License | https://github.com/twbs/bootstrap/blob/master/LICENSE */
+
+/*
+=======================================
+ DIMENSION VARIABLES
+=======================================
+ 0:  Spacers.
+ 1:  Borders.
+ 2:  Z-Index
+ 3:  Default Media Breakpoints
+================================
+*/
+
+/* 0 */
+:root {
+  --spacer-1rem: 1rem;
+  --spacer-2rem: 2rem;
+  --spacer-3rem: 3rem;
+  --spacer-4rem: 4rem;
+  --spacer-5rem: 5rem;
+  --spacer-halfrem: 0.5rem;
+  --spacer-quarterrem: 0.25rem;
+}
+
+/* 1 */
+:root {
+  --border-width-1px: 1px;
+  --border-width-2px: 2px;
+  --border-width-3px: 3px;
+  --border-width-4px: 4px;
+  --border-width-5px: 5px;
+  --border-width-6px: 6px;
+  --border-width-7px: 7px;
+  --border-width-8px: 8px;
+  --border-width-9px: 9px;
+}
+
+/* 2 */
+:root {
+  --zindex-dropdown-backdrop: 990;
+  --zindex-navbar: 1000;
+  --zindex-dropdown: 1000;
+  --zindex-fixed: 1030;
+  --zindex-sticky: 1030;
+  --zindex-modal-backdrop: 1040;
+  --zindex-modal: 1050;
+  --zindex-popover: 1060;
+  --zindex-tooltip: 1070;
+}
+
+/* 3 */
+@custom-media --sm-viewport (min-width: 576px);
+@custom-media --md-viewport (min-width: 768px);
+@custom-media --lg-viewport (min-width: 992px);
+@custom-media --xl-viewport (min-width: 1200px);
+
+@custom-media --sm-max-viewport (max-width: 576px);
+@custom-media --md-max-viewport (max-width: 768px);
+@custom-media --lg-max-viewport (max-width: 992px);
+@custom-media --xl-max-viewport (max-width: 1200px);
