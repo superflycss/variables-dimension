@@ -1,6 +1,6 @@
 {
   "name": "@superflycss/variables-dimension",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Dimension variables",
   "main": "index.css",
   "scripts": {
